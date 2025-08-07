@@ -1,0 +1,6 @@
+{
+  "name": "jose-repro",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2025-06-17",
+  "compatibility_flags": ["nodejs_compat"]
+}

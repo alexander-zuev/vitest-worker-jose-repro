@@ -1,0 +1,26 @@
+{
+  "name": "vitest-worker-jose-repro",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "build": "wrangler deploy --dry-run --outdir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.8.60",
+    "@cloudflare/workers-types": "^4.20250807.0",
+    "@vitest/coverage-istanbul": "^3.2.4",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4",
+    "wrangler": "^4.28.0"
+  },
+  "dependencies": {
+    "better-auth": "^1.3.4",
+    "better-sqlite3": "^12.2.0",
+    "drizzle-orm": "^0.44.4"
+  }
+}
